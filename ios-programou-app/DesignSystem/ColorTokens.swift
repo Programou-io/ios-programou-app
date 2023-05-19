@@ -17,6 +17,12 @@ enum ColorTokens: String {
     case turquoise700 = "#158774"
     case turquoise800 = "#0C5E50"
     
+    case purple100 = "#9D4EDD"
+    case purple200 = "#7B2CBF"
+    case purple500 = "#5A189A"
+    case purple700 = "#3C096C"
+    case purple800 = "#240046"
+    
     var hex: String {
         rawValue
     }
