@@ -48,4 +48,12 @@ final class ColorTokensTests: XCTestCase {
         XCTAssertEqual(ColorTokens.red700.hex, "#38040E")
         XCTAssertEqual(ColorTokens.red800.hex, "#250902")
     }
+    
+    func test_blues_withHEXValue() {
+        XCTAssertEqual(ColorTokens.blue100.hex, "#00A6FB")
+        XCTAssertEqual(ColorTokens.blue200.hex, "#0582CA")
+        XCTAssertEqual(ColorTokens.blue500.hex, "#006494")
+        XCTAssertEqual(ColorTokens.blue700.hex, "#003554")
+        XCTAssertEqual(ColorTokens.blue800.hex, "#051923")
+    }
 }
