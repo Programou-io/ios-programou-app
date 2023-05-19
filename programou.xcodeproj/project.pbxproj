@@ -104,8 +104,8 @@
 		B16C006D2A16F52F00DEB171 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				B16C006E2A16F54800DEB171 /* ColorTokensTests.swift */,
-				B16C00732A170B3300DEB171 /* ColorProviderTests.swift */,
+				B16C00792A17AF7500DEB171 /* Providers */,
+				B16C00782A17AF6B00DEB171 /* Tokens */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -113,10 +113,42 @@
 		B16C00702A16F76D00DEB171 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				B16C00712A16F77800DEB171 /* ColorTokens.swift */,
-				B16C00762A170BBF00DEB171 /* ColorProvider.swift */,
+				B16C007B2A17AF8000DEB171 /* Providers */,
+				B16C007A2A17AF7B00DEB171 /* Tokens */,
 			);
 			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		B16C00782A17AF6B00DEB171 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				B16C006E2A16F54800DEB171 /* ColorTokensTests.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		B16C00792A17AF7500DEB171 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00732A170B3300DEB171 /* ColorProviderTests.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		B16C007A2A17AF7B00DEB171 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00712A16F77800DEB171 /* ColorTokens.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		B16C007B2A17AF8000DEB171 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00762A170BBF00DEB171 /* ColorProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
