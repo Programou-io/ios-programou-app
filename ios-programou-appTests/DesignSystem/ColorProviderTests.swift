@@ -48,6 +48,16 @@ final class ColorProviderTests: XCTestCase {
         XCTAssertEqual(provider.color(.purple800), makeColor(red: 36, green: 0, blue: 70))
     }
     
+    func test_reds_color_provided() {
+        let provider = ColorProvider()
+        
+        XCTAssertEqual(provider.color(.red100), makeColor(red: 173, green: 40, blue: 49))
+        XCTAssertEqual(provider.color(.red200), makeColor(red: 128, green: 14, blue: 19))
+        XCTAssertEqual(provider.color(.red500), makeColor(red: 100, green: 13, blue: 20))
+        XCTAssertEqual(provider.color(.red700), makeColor(red: 56, green: 4, blue: 14))
+        XCTAssertEqual(provider.color(.red800), makeColor(red: 37, green: 9, blue: 2))
+    }
+    
     private func makeColor(red: CGFloat, green: CGFloat, blue: CGFloat) -> Color {
         Color(red: red/255, green: green/255, blue: blue/255, opacity: 1)
     }
