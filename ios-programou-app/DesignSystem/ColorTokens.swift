@@ -23,6 +23,12 @@ enum ColorTokens: String {
     case purple700 = "#3C096C"
     case purple800 = "#240046"
     
+    case red100 = "#AD2831"
+    case red200 = "#800E13"
+    case red500 = "#640D14"
+    case red700 = "#38040E"
+    case red800 = "#250902"
+    
     var hex: String {
         rawValue
     }
