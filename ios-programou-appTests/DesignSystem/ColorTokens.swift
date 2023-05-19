@@ -32,4 +32,12 @@ final class ColorTokensTests: XCTestCase {
         XCTAssertEqual(ColorTokens.turquoise700.hex, "#158774")
         XCTAssertEqual(ColorTokens.turquoise800.hex, "#0C5E50")
     }
+    
+    func test_purples_withHEXValue() {
+        XCTAssertEqual(ColorTokens.purple100.hex, "#9D4EDD")
+        XCTAssertEqual(ColorTokens.purple200.hex, "#7B2CBF")
+        XCTAssertEqual(ColorTokens.purple500.hex, "#5A189A")
+        XCTAssertEqual(ColorTokens.purple700.hex, "#3C096C")
+        XCTAssertEqual(ColorTokens.purple800.hex, "#240046")
+    }
 }
