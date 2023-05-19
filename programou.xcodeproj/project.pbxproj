@@ -14,6 +14,11 @@
 		B16C00722A16F77800DEB171 /* ColorTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00712A16F77800DEB171 /* ColorTokens.swift */; };
 		B16C00752A170B3B00DEB171 /* ColorProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00732A170B3300DEB171 /* ColorProviderTests.swift */; };
 		B16C00772A170BBF00DEB171 /* ColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00762A170BBF00DEB171 /* ColorProvider.swift */; };
+		B16C007F2A17C88000DEB171 /* BoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C007E2A17C88000DEB171 /* BoxComponent.swift */; };
+		B16C00822A17CD5100DEB171 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00812A17CD5100DEB171 /* View+Extensions.swift */; };
+		B16C00842A17CEC800DEB171 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00832A17CEC800DEB171 /* TextComponent.swift */; };
+		B16C00862A1813EA00DEB171 /* FontSizeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00852A1813EA00DEB171 /* FontSizeTokens.swift */; };
+		B16C00892A18153E00DEB171 /* FontSizeTokensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00872A18152F00DEB171 /* FontSizeTokensTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		B16C00712A16F77800DEB171 /* ColorTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTokens.swift; sourceTree = "<group>"; };
 		B16C00732A170B3300DEB171 /* ColorProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProviderTests.swift; sourceTree = "<group>"; };
 		B16C00762A170BBF00DEB171 /* ColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProvider.swift; sourceTree = "<group>"; };
+		B16C007E2A17C88000DEB171 /* BoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxComponent.swift; sourceTree = "<group>"; };
+		B16C00812A17CD5100DEB171 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B16C00832A17CEC800DEB171 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
+		B16C00852A1813EA00DEB171 /* FontSizeTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeTokens.swift; sourceTree = "<group>"; };
+		B16C00872A18152F00DEB171 /* FontSizeTokensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeTokensTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,7 @@
 		B16C006D2A16F52F00DEB171 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				B16C007D2A17C85E00DEB171 /* Components */,
 				B16C00792A17AF7500DEB171 /* Providers */,
 				B16C00782A17AF6B00DEB171 /* Tokens */,
 			);
@@ -113,6 +124,8 @@
 		B16C00702A16F76D00DEB171 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				B16C00802A17CD4200DEB171 /* Utils */,
+				B16C007C2A17C85500DEB171 /* Components */,
 				B16C007B2A17AF8000DEB171 /* Providers */,
 				B16C007A2A17AF7B00DEB171 /* Tokens */,
 			);
@@ -123,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				B16C006E2A16F54800DEB171 /* ColorTokensTests.swift */,
+				B16C00872A18152F00DEB171 /* FontSizeTokensTests.swift */,
 			);
 			path = Tokens;
 			sourceTree = "<group>";
@@ -139,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B16C00712A16F77800DEB171 /* ColorTokens.swift */,
+				B16C00852A1813EA00DEB171 /* FontSizeTokens.swift */,
 			);
 			path = Tokens;
 			sourceTree = "<group>";
@@ -149,6 +164,30 @@
 				B16C00762A170BBF00DEB171 /* ColorProvider.swift */,
 			);
 			path = Providers;
+			sourceTree = "<group>";
+		};
+		B16C007C2A17C85500DEB171 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B16C007E2A17C88000DEB171 /* BoxComponent.swift */,
+				B16C00832A17CEC800DEB171 /* TextComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B16C007D2A17C85E00DEB171 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B16C00802A17CD4200DEB171 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00812A17CD5100DEB171 /* View+Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16C00842A17CEC800DEB171 /* TextComponent.swift in Sources */,
 				B16C00772A170BBF00DEB171 /* ColorProvider.swift in Sources */,
+				B16C007F2A17C88000DEB171 /* BoxComponent.swift in Sources */,
 				B16C00442A16F3C500DEB171 /* ProgramouApp.swift in Sources */,
+				B16C00822A17CD5100DEB171 /* View+Extensions.swift in Sources */,
+				B16C00862A1813EA00DEB171 /* FontSizeTokens.swift in Sources */,
 				B16C00722A16F77800DEB171 /* ColorTokens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16C00892A18153E00DEB171 /* FontSizeTokensTests.swift in Sources */,
 				B16C00752A170B3B00DEB171 /* ColorProviderTests.swift in Sources */,
 				B16C006F2A16F54800DEB171 /* ColorTokensTests.swift in Sources */,
 			);

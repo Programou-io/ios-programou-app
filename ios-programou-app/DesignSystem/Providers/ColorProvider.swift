@@ -1,7 +1,7 @@
 import SwiftUI
 
-final class ColorProvider {
-    func color(_ token: ColorTokens) -> Color {
+enum ColorProvider {
+    static func color(_ token: ColorTokens) -> Color {
         let rgba = convertToRGBA(hex: token.hex)
         return Color(
             .sRGB,
@@ -13,7 +13,7 @@ final class ColorProvider {
     }
     
     typealias RBGA = (red: CGFloat, blue: CGFloat, green: CGFloat, alfa: CGFloat)
-    private func convertToRGBA(hex: String) -> RBGA {
+    static private func convertToRGBA(hex: String) -> RBGA {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0
         Scanner(string: hex).scanHexInt64(&int)
