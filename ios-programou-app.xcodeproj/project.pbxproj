@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B16C00442A16F3C500DEB171 /* ios_programou_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00432A16F3C500DEB171 /* ios_programou_appApp.swift */; };
-		B16C00462A16F3C500DEB171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00452A16F3C500DEB171 /* ContentView.swift */; };
+		B16C00442A16F3C500DEB171 /* ProgramouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00432A16F3C500DEB171 /* ProgramouApp.swift */; };
 		B16C00482A16F3C600DEB171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16C00472A16F3C600DEB171 /* Assets.xcassets */; };
 		B16C004B2A16F3C600DEB171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16C004A2A16F3C600DEB171 /* Preview Assets.xcassets */; };
 		B16C00552A16F3C600DEB171 /* ios_programou_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00542A16F3C600DEB171 /* ios_programou_appTests.swift */; };
-		B16C005F2A16F3C600DEB171 /* ios_programou_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C005E2A16F3C600DEB171 /* ios_programou_appUITests.swift */; };
-		B16C00612A16F3C600DEB171 /* ios_programou_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00602A16F3C600DEB171 /* ios_programou_appUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +21,15 @@
 			remoteGlobalIDString = B16C003F2A16F3C500DEB171;
 			remoteInfo = "ios-programou-app";
 		};
-		B16C005B2A16F3C600DEB171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B16C00382A16F3C400DEB171 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B16C003F2A16F3C500DEB171;
-			remoteInfo = "ios-programou-app";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B16C00402A16F3C500DEB171 /* ios-programou-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-programou-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16C00432A16F3C500DEB171 /* ios_programou_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_programou_appApp.swift; sourceTree = "<group>"; };
-		B16C00452A16F3C500DEB171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B16C00432A16F3C500DEB171 /* ProgramouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramouApp.swift; sourceTree = "<group>"; };
 		B16C00472A16F3C600DEB171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16C004A2A16F3C600DEB171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B16C00502A16F3C600DEB171 /* ios-programou-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-programou-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16C00542A16F3C600DEB171 /* ios_programou_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_programou_appTests.swift; sourceTree = "<group>"; };
-		B16C005A2A16F3C600DEB171 /* ios-programou-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-programou-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16C005E2A16F3C600DEB171 /* ios_programou_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_programou_appUITests.swift; sourceTree = "<group>"; };
-		B16C00602A16F3C600DEB171 /* ios_programou_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_programou_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B16C00572A16F3C600DEB171 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +55,6 @@
 			children = (
 				B16C00422A16F3C500DEB171 /* ios-programou-app */,
 				B16C00532A16F3C600DEB171 /* ios-programou-appTests */,
-				B16C005D2A16F3C600DEB171 /* ios-programou-appUITests */,
 				B16C00412A16F3C500DEB171 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +64,6 @@
 			children = (
 				B16C00402A16F3C500DEB171 /* ios-programou-app.app */,
 				B16C00502A16F3C600DEB171 /* ios-programou-appTests.xctest */,
-				B16C005A2A16F3C600DEB171 /* ios-programou-appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +71,7 @@
 		B16C00422A16F3C500DEB171 /* ios-programou-app */ = {
 			isa = PBXGroup;
 			children = (
-				B16C00432A16F3C500DEB171 /* ios_programou_appApp.swift */,
-				B16C00452A16F3C500DEB171 /* ContentView.swift */,
+				B16C00432A16F3C500DEB171 /* ProgramouApp.swift */,
 				B16C00472A16F3C600DEB171 /* Assets.xcassets */,
 				B16C00492A16F3C600DEB171 /* Preview Content */,
 			);
@@ -116,15 +92,6 @@
 				B16C00542A16F3C600DEB171 /* ios_programou_appTests.swift */,
 			);
 			path = "ios-programou-appTests";
-			sourceTree = "<group>";
-		};
-		B16C005D2A16F3C600DEB171 /* ios-programou-appUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B16C005E2A16F3C600DEB171 /* ios_programou_appUITests.swift */,
-				B16C00602A16F3C600DEB171 /* ios_programou_appUITestsLaunchTests.swift */,
-			);
-			path = "ios-programou-appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +132,6 @@
 			productReference = B16C00502A16F3C600DEB171 /* ios-programou-appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B16C00592A16F3C600DEB171 /* ios-programou-appUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B16C006A2A16F3C600DEB171 /* Build configuration list for PBXNativeTarget "ios-programou-appUITests" */;
-			buildPhases = (
-				B16C00562A16F3C600DEB171 /* Sources */,
-				B16C00572A16F3C600DEB171 /* Frameworks */,
-				B16C00582A16F3C600DEB171 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B16C005C2A16F3C600DEB171 /* PBXTargetDependency */,
-			);
-			name = "ios-programou-appUITests";
-			productName = "ios-programou-appUITests";
-			productReference = B16C005A2A16F3C600DEB171 /* ios-programou-appUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +146,6 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					B16C004F2A16F3C600DEB171 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = B16C003F2A16F3C500DEB171;
-					};
-					B16C00592A16F3C600DEB171 = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = B16C003F2A16F3C500DEB171;
 					};
@@ -221,7 +166,6 @@
 			targets = (
 				B16C003F2A16F3C500DEB171 /* ios-programou-app */,
 				B16C004F2A16F3C600DEB171 /* ios-programou-appTests */,
-				B16C00592A16F3C600DEB171 /* ios-programou-appUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +187,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B16C00582A16F3C600DEB171 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16C00462A16F3C500DEB171 /* ContentView.swift in Sources */,
-				B16C00442A16F3C500DEB171 /* ios_programou_appApp.swift in Sources */,
+				B16C00442A16F3C500DEB171 /* ProgramouApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +206,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B16C00562A16F3C600DEB171 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B16C005F2A16F3C600DEB171 /* ios_programou_appUITests.swift in Sources */,
-				B16C00612A16F3C600DEB171 /* ios_programou_appUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +213,6 @@
 			isa = PBXTargetDependency;
 			target = B16C003F2A16F3C500DEB171 /* ios-programou-app */;
 			targetProxy = B16C00512A16F3C600DEB171 /* PBXContainerItemProxy */;
-		};
-		B16C005C2A16F3C600DEB171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B16C003F2A16F3C500DEB171 /* ios-programou-app */;
-			targetProxy = B16C005B2A16F3C600DEB171 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,42 +429,6 @@
 			};
 			name = Release;
 		};
-		B16C006B2A16F3C600DEB171 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y487CY958A;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.programou.ios-programou-appUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ios-programou-app";
-			};
-			name = Debug;
-		};
-		B16C006C2A16F3C600DEB171 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y487CY958A;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.programou.ios-programou-appUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ios-programou-app";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +455,6 @@
 			buildConfigurations = (
 				B16C00682A16F3C600DEB171 /* Debug */,
 				B16C00692A16F3C600DEB171 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B16C006A2A16F3C600DEB171 /* Build configuration list for PBXNativeTarget "ios-programou-appUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B16C006B2A16F3C600DEB171 /* Debug */,
-				B16C006C2A16F3C600DEB171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
