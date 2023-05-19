@@ -29,6 +29,12 @@ enum ColorTokens: String {
     case red700 = "#38040E"
     case red800 = "#250902"
     
+    case blue100 = "#00A6FB"
+    case blue200 = "#0582CA"
+    case blue500 = "#006494"
+    case blue700 = "#003554"
+    case blue800 = "#051923"
+    
     var hex: String {
         rawValue
     }
