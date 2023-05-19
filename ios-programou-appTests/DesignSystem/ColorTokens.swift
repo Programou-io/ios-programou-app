@@ -10,10 +10,6 @@ final class ColorTokensTests: XCTestCase {
         XCTAssertEqual(ColorTokens.black.hex, "#000")
     }
     
-    func test_gray100_asHexDecimalVaue() {
-        XCTAssertEqual(ColorTokens.black.hex, "#000")
-    }
-    
     func test_graies_withHEXValue() {
         XCTAssertEqual(ColorTokens.gray100.hex, "#E1E1E6")
         XCTAssertEqual(ColorTokens.gray200.hex, "#A9A9B2")
