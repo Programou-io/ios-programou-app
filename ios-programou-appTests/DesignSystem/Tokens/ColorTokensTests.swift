@@ -1,5 +1,5 @@
 import XCTest
-@testable import programou
+@testable import Programou
 
 final class ColorTokensTests: XCTestCase {
     func test_white_asHexDecimalVaue() {

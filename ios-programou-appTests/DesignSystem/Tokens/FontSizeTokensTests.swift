@@ -1,6 +1,6 @@
 import XCTest
 
-@testable import programou
+@testable import Programou
 
 final class FontSizeTokensTests: XCTestCase {
     func test_extraExtraSmall_token_equal_4() {

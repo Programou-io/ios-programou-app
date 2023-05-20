@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B16C003F2A16F3C500DEB171"
-               BuildableName = "programou.app"
-               BlueprintName = "programou"
+               BuildableName = "Programou.app"
+               BlueprintName = "Programou"
                ReferencedContainer = "container:programou.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,23 +30,12 @@
       <Testables>
          <TestableReference
             skipped = "NO"
-            parallelizable = "YES">
+            testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B16C004F2A16F3C600DEB171"
-               BuildableName = "programouTests.xctest"
-               BlueprintName = "programouTests"
-               ReferencedContainer = "container:programou.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B16C00592A16F3C600DEB171"
-               BuildableName = "ios-programou-appUITests.xctest"
-               BlueprintName = "ios-programou-appUITests"
+               BuildableName = "ProgramouTests.xctest"
+               BlueprintName = "ProgramouTests"
                ReferencedContainer = "container:programou.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -67,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B16C003F2A16F3C500DEB171"
-            BuildableName = "programou.app"
-            BlueprintName = "programou"
+            BuildableName = "Programou.app"
+            BlueprintName = "Programou"
             ReferencedContainer = "container:programou.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,8 +73,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B16C003F2A16F3C500DEB171"
-            BuildableName = "programou.app"
-            BlueprintName = "programou"
+            BuildableName = "Programou.app"
+            BlueprintName = "Programou"
             ReferencedContainer = "container:programou.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

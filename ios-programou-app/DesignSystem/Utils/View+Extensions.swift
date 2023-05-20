@@ -16,4 +16,8 @@ extension View {
     func fontSize(_ sizeToken: FontSizeTokens) -> some View {
         font(.system(size: sizeToken.size))
     }
+    
+    func padding(_ sizeToken: FontSizeTokens) -> some View {
+        padding(sizeToken.size)
+    }
 }

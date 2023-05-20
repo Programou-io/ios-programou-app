@@ -33,9 +33,9 @@ struct TextComponent_Previews: PreviewProvider {
             TextComponent(title, color: .gray400, size: .xl)
             TextComponent(title, color: .red100, size: .lg)
         }
-            .padding()
-            .previewDisplayName(title)
-            .previewLayout(.fixed(width: 350, height: 200))
-            .preferredColorScheme(.dark)
+        .padding()
+        .previewDisplayName(title)
+        .previewLayout(.fixed(width: 350, height: 200))
+        .preferredColorScheme(.dark)
     }
 }

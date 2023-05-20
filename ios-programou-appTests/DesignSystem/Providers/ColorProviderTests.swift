@@ -1,7 +1,7 @@
 import XCTest
 import SwiftUI
 
-@testable import programou
+@testable import Programou
 
 final class ColorProviderTests: XCTestCase {
     func test_white_color_provided() {
