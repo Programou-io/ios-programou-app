@@ -31,6 +31,8 @@
 		B16C00AC2A18E11F00DEB171 /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00AA2A18E10F00DEB171 /* XCTestCase+Extensions.swift */; };
 		B16C00AF2A18E16000DEB171 /* HomeComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00AE2A18E16000DEB171 /* HomeComposer.swift */; };
 		B16C00B12A18E30C00DEB171 /* Stacks+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00B02A18E30C00DEB171 /* Stacks+Extensions.swift */; };
+		B16C00B62A18ED0C00DEB171 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00B52A18ED0C00DEB171 /* AppBackground.swift */; };
+		B16C00BC2A18EE2E00DEB171 /* Binders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00BB2A18EE2E00DEB171 /* Binders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		B16C00AE2A18E16000DEB171 /* HomeComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeComposer.swift; sourceTree = "<group>"; };
 		B16C00B02A18E30C00DEB171 /* Stacks+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stacks+Extensions.swift"; sourceTree = "<group>"; };
 		B16C00B22A18E9F500DEB171 /* Programou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Programou-Info.plist"; sourceTree = "<group>"; };
+		B16C00B52A18ED0C00DEB171 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		B16C00BB2A18EE2E00DEB171 /* Binders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,7 @@
 		B16C008E2A18D5E600DEB171 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B16C00B92A18EE2300DEB171 /* Utils */,
 				B16C00AD2A18E14D00DEB171 /* Main */,
 				B16C00952A18D9D900DEB171 /* Presentation */,
 			);
@@ -234,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				B16C008A2A181B1300DEB171 /* Home.swift */,
+				B16C00B52A18ED0C00DEB171 /* AppBackground.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -298,6 +304,14 @@
 				B16C00AE2A18E16000DEB171 /* HomeComposer.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B16C00B92A18EE2300DEB171 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00BB2A18EE2E00DEB171 /* Binders.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,10 +426,12 @@
 				B16C00822A17CD5100DEB171 /* View+Extensions.swift in Sources */,
 				B16C00862A1813EA00DEB171 /* FontSizeTokens.swift in Sources */,
 				B16C008B2A181B1300DEB171 /* Home.swift in Sources */,
+				B16C00B62A18ED0C00DEB171 /* AppBackground.swift in Sources */,
 				B16C008D2A181E1B00DEB171 /* ButtonComponent.swift in Sources */,
 				B16C00722A16F77800DEB171 /* ColorTokens.swift in Sources */,
 				B16C00AF2A18E16000DEB171 /* HomeComposer.swift in Sources */,
 				B16C00992A18DA0300DEB171 /* HomeLocalize.swift in Sources */,
+				B16C00BC2A18EE2E00DEB171 /* Binders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
