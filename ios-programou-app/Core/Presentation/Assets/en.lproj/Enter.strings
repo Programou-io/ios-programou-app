@@ -1,0 +1,7 @@
+"TITLE" = "Wellcome";
+"DESCRIPTION" = "We need some informations to create your account! Ow, you can edit this informations later.";
+"NAME_TEXT_FIELD_LABEL" = "Full name";
+"NAME_TEXT_FIELD_PLACEHOLDER" = "Your full name here";
+"ACCESS_BUTTON_DESCRIPTION" = "Access your google account";
+"ACCESS_BUTTON_TITLE" = "Access";
+"NEXT_STEP_BUTTON_TITLE" = "Next step";

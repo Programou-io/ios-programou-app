@@ -1,9 +1,9 @@
 import SwiftUI
 
 enum HomeComposer {
-    static func compose() -> some View {
+    static func compose(onEnter: @escaping Bind) -> some View {
         let presenter = HomePresenter()
-        let screen = Home(presenter: presenter, onGoToEnter: {})
+        let screen = Home(presenter: presenter, onGoToEnter: onEnter)
         
         return screen
     }

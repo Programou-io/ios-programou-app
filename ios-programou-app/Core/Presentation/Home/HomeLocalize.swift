@@ -1,4 +1,4 @@
-enum HomeLocalize: String, Localizable {
+enum HomeLocalize: String, Localizable, CaseIterable {
 
     case title = "TITLE"
     case description = "DESCRIPTION"

@@ -25,7 +25,7 @@
 		B16C00972A18D9E800DEB171 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00962A18D9E800DEB171 /* Localizable.swift */; };
 		B16C00992A18DA0300DEB171 /* HomeLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00982A18DA0300DEB171 /* HomeLocalize.swift */; };
 		B16C009B2A18DAC100DEB171 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C009A2A18DAC100DEB171 /* HomePresenter.swift */; };
-		B16C00A02A18DDCC00DEB171 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C009E2A18DDB700DEB171 /* HomePresenter.swift */; };
+		B16C00A02A18DDCC00DEB171 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C009E2A18DDB700DEB171 /* HomePresenterTests.swift */; };
 		B16C00A32A18DE8F00DEB171 /* HomeLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00A12A18DE8B00DEB171 /* HomeLocalizeTests.swift */; };
 		B16C00A82A18DFA100DEB171 /* Home.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16C00A62A18DFA100DEB171 /* Home.strings */; };
 		B16C00AC2A18E11F00DEB171 /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00AA2A18E10F00DEB171 /* XCTestCase+Extensions.swift */; };
@@ -33,6 +33,16 @@
 		B16C00B12A18E30C00DEB171 /* Stacks+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00B02A18E30C00DEB171 /* Stacks+Extensions.swift */; };
 		B16C00B62A18ED0C00DEB171 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00B52A18ED0C00DEB171 /* AppBackground.swift */; };
 		B16C00BC2A18EE2E00DEB171 /* Binders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00BB2A18EE2E00DEB171 /* Binders.swift */; };
+		B16C00C62A19889400DEB171 /* Enter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00C52A19889400DEB171 /* Enter.swift */; };
+		B16C00D02A1BB8C100DEB171 /* EnterPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00CE2A1BB8B000DEB171 /* EnterPresenterTests.swift */; };
+		B16C00D22A1BC17D00DEB171 /* EnterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00D12A1BC17D00DEB171 /* EnterPresenter.swift */; };
+		B16C00D42A1BC5F600DEB171 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00D32A1BC5F600DEB171 /* BackButton.swift */; };
+		B16C00D62A1BC67600DEB171 /* EnterComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00D52A1BC67600DEB171 /* EnterComposer.swift */; };
+		B16C00D82A1BC6CC00DEB171 /* EnterLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00D72A1BC6CC00DEB171 /* EnterLocalize.swift */; };
+		B16C00DB2A1BC6E600DEB171 /* Enter.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16C00D92A1BC6E600DEB171 /* Enter.strings */; };
+		B16C00E02A1BC96D00DEB171 /* EnterLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00DE2A1BC95900DEB171 /* EnterLocalizeTests.swift */; };
+		B16C00E32A1BCA9E00DEB171 /* Enter.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16C00E12A1BCA9E00DEB171 /* Enter.strings */; };
+		B16C00E62A1BFA9400DEB171 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00E52A1BFA9400DEB171 /* Binding+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +76,7 @@
 		B16C00962A18D9E800DEB171 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		B16C00982A18DA0300DEB171 /* HomeLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalize.swift; sourceTree = "<group>"; };
 		B16C009A2A18DAC100DEB171 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		B16C009E2A18DDB700DEB171 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B16C009E2A18DDB700DEB171 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
 		B16C00A12A18DE8B00DEB171 /* HomeLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalizeTests.swift; sourceTree = "<group>"; };
 		B16C00A72A18DFA100DEB171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Home.strings; sourceTree = "<group>"; };
 		B16C00AA2A18E10F00DEB171 /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
@@ -75,6 +85,16 @@
 		B16C00B22A18E9F500DEB171 /* Programou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Programou-Info.plist"; sourceTree = "<group>"; };
 		B16C00B52A18ED0C00DEB171 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
 		B16C00BB2A18EE2E00DEB171 /* Binders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binders.swift; sourceTree = "<group>"; };
+		B16C00C52A19889400DEB171 /* Enter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enter.swift; sourceTree = "<group>"; };
+		B16C00CE2A1BB8B000DEB171 /* EnterPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPresenterTests.swift; sourceTree = "<group>"; };
+		B16C00D12A1BC17D00DEB171 /* EnterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPresenter.swift; sourceTree = "<group>"; };
+		B16C00D32A1BC5F600DEB171 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		B16C00D52A1BC67600DEB171 /* EnterComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterComposer.swift; sourceTree = "<group>"; };
+		B16C00D72A1BC6CC00DEB171 /* EnterLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocalize.swift; sourceTree = "<group>"; };
+		B16C00DA2A1BC6E600DEB171 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = Enter.strings; sourceTree = "<group>"; };
+		B16C00DE2A1BC95900DEB171 /* EnterLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocalizeTests.swift; sourceTree = "<group>"; };
+		B16C00E22A1BCA9E00DEB171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Enter.strings; sourceTree = "<group>"; };
+		B16C00E52A1BFA9400DEB171 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +226,7 @@
 				B16C00832A17CEC800DEB171 /* TextComponent.swift */,
 				B16C008C2A181E1B00DEB171 /* ButtonComponent.swift */,
 				B16C00B02A18E30C00DEB171 /* Stacks+Extensions.swift */,
+				B16C00D32A1BC5F600DEB171 /* BackButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -238,8 +259,9 @@
 		B16C008F2A18D5EA00DEB171 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B16C008A2A181B1300DEB171 /* Home.swift */,
-				B16C00B52A18ED0C00DEB171 /* AppBackground.swift */,
+				B16C00E42A1BFA8600DEB171 /* Extensions */,
+				B16C00C82A1BB7DD00DEB171 /* Screens */,
+				B16C00C72A1BB7D900DEB171 /* Components */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -247,11 +269,9 @@
 		B16C00952A18D9D900DEB171 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B16C00A52A18DF8100DEB171 /* pt-BR.lproj */,
-				B16C00A42A18DF7700DEB171 /* en.lproj */,
-				B16C00962A18D9E800DEB171 /* Localizable.swift */,
-				B16C00982A18DA0300DEB171 /* HomeLocalize.swift */,
-				B16C009A2A18DAC100DEB171 /* HomePresenter.swift */,
+				B16C00CB2A1BB87F00DEB171 /* Assets */,
+				B16C00CC2A1BB88C00DEB171 /* Enter */,
+				B16C00CA2A1BB86E00DEB171 /* Home */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -267,9 +287,9 @@
 		B16C009D2A18DDA900DEB171 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				B16C00CD2A1BB89000DEB171 /* Enter */,
+				B16C00C92A1BB86300DEB171 /* Home */,
 				B16C00A92A18E10100DEB171 /* Helpers */,
-				B16C009E2A18DDB700DEB171 /* HomePresenter.swift */,
-				B16C00A12A18DE8B00DEB171 /* HomeLocalizeTests.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -278,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				B16C00A62A18DFA100DEB171 /* Home.strings */,
+				B16C00E12A1BCA9E00DEB171 /* Enter.strings */,
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
@@ -286,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				B16C00912A18D73600DEB171 /* Home.strings */,
+				B16C00D92A1BC6E600DEB171 /* Enter.strings */,
 			);
 			path = "pt-BR.lproj";
 			sourceTree = "<group>";
@@ -302,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				B16C00AE2A18E16000DEB171 /* HomeComposer.swift */,
+				B16C00D52A1BC67600DEB171 /* EnterComposer.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -312,6 +335,77 @@
 				B16C00BB2A18EE2E00DEB171 /* Binders.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B16C00C72A1BB7D900DEB171 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00B52A18ED0C00DEB171 /* AppBackground.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B16C00C82A1BB7DD00DEB171 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00C52A19889400DEB171 /* Enter.swift */,
+				B16C008A2A181B1300DEB171 /* Home.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B16C00C92A1BB86300DEB171 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B16C009E2A18DDB700DEB171 /* HomePresenterTests.swift */,
+				B16C00A12A18DE8B00DEB171 /* HomeLocalizeTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B16C00CA2A1BB86E00DEB171 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00982A18DA0300DEB171 /* HomeLocalize.swift */,
+				B16C009A2A18DAC100DEB171 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B16C00CB2A1BB87F00DEB171 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00A52A18DF8100DEB171 /* pt-BR.lproj */,
+				B16C00A42A18DF7700DEB171 /* en.lproj */,
+				B16C00962A18D9E800DEB171 /* Localizable.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B16C00CC2A1BB88C00DEB171 /* Enter */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00D12A1BC17D00DEB171 /* EnterPresenter.swift */,
+				B16C00D72A1BC6CC00DEB171 /* EnterLocalize.swift */,
+			);
+			path = Enter;
+			sourceTree = "<group>";
+		};
+		B16C00CD2A1BB89000DEB171 /* Enter */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00CE2A1BB8B000DEB171 /* EnterPresenterTests.swift */,
+				B16C00DE2A1BC95900DEB171 /* EnterLocalizeTests.swift */,
+			);
+			path = Enter;
+			sourceTree = "<group>";
+		};
+		B16C00E42A1BFA8600DEB171 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00E52A1BFA9400DEB171 /* Binding+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,6 +472,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = B16C00372A16F3C400DEB171;
 			productRefGroup = B16C00412A16F3C500DEB171 /* Products */;
@@ -398,7 +493,9 @@
 				B16C004B2A16F3C600DEB171 /* Preview Assets.xcassets in Resources */,
 				B16C00A82A18DFA100DEB171 /* Home.strings in Resources */,
 				B16C00482A16F3C600DEB171 /* Assets.xcassets in Resources */,
+				B16C00DB2A1BC6E600DEB171 /* Enter.strings in Resources */,
 				B16C00922A18D73600DEB171 /* Home.strings in Resources */,
+				B16C00E32A1BCA9E00DEB171 /* Enter.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +513,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16C00D42A1BC5F600DEB171 /* BackButton.swift in Sources */,
 				B16C00972A18D9E800DEB171 /* Localizable.swift in Sources */,
+				B16C00D82A1BC6CC00DEB171 /* EnterLocalize.swift in Sources */,
+				B16C00C62A19889400DEB171 /* Enter.swift in Sources */,
 				B16C00842A17CEC800DEB171 /* TextComponent.swift in Sources */,
 				B16C00772A170BBF00DEB171 /* ColorProvider.swift in Sources */,
 				B16C009B2A18DAC100DEB171 /* HomePresenter.swift in Sources */,
 				B16C007F2A17C88000DEB171 /* BoxComponent.swift in Sources */,
 				B16C00442A16F3C500DEB171 /* ProgramouApp.swift in Sources */,
+				B16C00D62A1BC67600DEB171 /* EnterComposer.swift in Sources */,
 				B16C00B12A18E30C00DEB171 /* Stacks+Extensions.swift in Sources */,
 				B16C00822A17CD5100DEB171 /* View+Extensions.swift in Sources */,
 				B16C00862A1813EA00DEB171 /* FontSizeTokens.swift in Sources */,
@@ -430,8 +531,10 @@
 				B16C008D2A181E1B00DEB171 /* ButtonComponent.swift in Sources */,
 				B16C00722A16F77800DEB171 /* ColorTokens.swift in Sources */,
 				B16C00AF2A18E16000DEB171 /* HomeComposer.swift in Sources */,
+				B16C00D22A1BC17D00DEB171 /* EnterPresenter.swift in Sources */,
 				B16C00992A18DA0300DEB171 /* HomeLocalize.swift in Sources */,
 				B16C00BC2A18EE2E00DEB171 /* Binders.swift in Sources */,
+				B16C00E62A1BFA9400DEB171 /* Binding+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,10 +544,12 @@
 			files = (
 				B16C00A32A18DE8F00DEB171 /* HomeLocalizeTests.swift in Sources */,
 				B16C00892A18153E00DEB171 /* FontSizeTokensTests.swift in Sources */,
+				B16C00D02A1BB8C100DEB171 /* EnterPresenterTests.swift in Sources */,
 				B16C00752A170B3B00DEB171 /* ColorProviderTests.swift in Sources */,
 				B16C006F2A16F54800DEB171 /* ColorTokensTests.swift in Sources */,
 				B16C00AC2A18E11F00DEB171 /* XCTestCase+Extensions.swift in Sources */,
-				B16C00A02A18DDCC00DEB171 /* HomePresenter.swift in Sources */,
+				B16C00A02A18DDCC00DEB171 /* HomePresenterTests.swift in Sources */,
+				B16C00E02A1BC96D00DEB171 /* EnterLocalizeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +570,22 @@
 				B16C00A72A18DFA100DEB171 /* en */,
 			);
 			name = Home.strings;
+			sourceTree = "<group>";
+		};
+		B16C00D92A1BC6E600DEB171 /* Enter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16C00DA2A1BC6E600DEB171 /* pt-BR */,
+			);
+			name = Enter.strings;
+			sourceTree = "<group>";
+		};
+		B16C00E12A1BCA9E00DEB171 /* Enter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16C00E22A1BCA9E00DEB171 /* en */,
+			);
+			name = Enter.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

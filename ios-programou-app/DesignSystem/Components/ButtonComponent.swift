@@ -23,6 +23,6 @@ struct ButtonComponent: View {
             }
         }
         .cornerRadius(8)
-        .frame(maxHeight: 40)
+        .frame(height: 40)
     }
 }

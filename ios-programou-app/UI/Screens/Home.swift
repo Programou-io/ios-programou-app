@@ -11,20 +11,22 @@ struct Home: View {
     }
     
     var body: some View {
-        VStack(alignment: .center, spacing: .xl) {
-            Image(Constant.logo)
-                .resizable()
-                .scaledToFill()
-                .frame(height: Constant.imageHeight)
-
-            TextComponent(presenter.title, size: .xxxl)
-                .fontWeight(.heavy)
-            
-            TextComponent(presenter.description, color: .gray400, size: .md)
+        AppBackground {
+            VStack(alignment: .center, spacing: .xl) {
+                Image(Constant.logo)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: Constant.imageHeight)
                 
-            ButtonComponent(title: presenter.buttonTitle, action: onGoToEnterActionHandler)
+                TextComponent(presenter.title, size: .xxxl)
+                    .fontWeight(.heavy)
+                
+                TextComponent(presenter.description, color: .gray400, size: .md)
+                
+                ButtonComponent(title: presenter.buttonTitle, action: onGoToEnterActionHandler)
+            }
+            .padding(.xxxl)
         }
-        .padding(.xxxl)
     }
     
     private enum Constant {
