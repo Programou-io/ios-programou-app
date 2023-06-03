@@ -3,6 +3,7 @@ import SwiftUI
 struct Enter: View {
     
     @State private var nameTextField = ""
+    @State private var isSelected = false
     
     private let presenter: EnterPresenter
     private let actions: Actions
@@ -41,6 +42,7 @@ struct Enter: View {
                                     presenter.namePlaceholder,
                                     text: $nameTextField
                                 )
+                                .onTapGesture { isSelected.toggle() }
                                 .padding()
                                 .background(ColorProvider.color(.gray900))
                                 .foregroundColor(ColorProvider.color(.white))

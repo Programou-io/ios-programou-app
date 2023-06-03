@@ -3,21 +3,10 @@ import SwiftUI
 @main
 struct ProgramouApp: App {
     
-    enum Route {
-        case home
-        case enter
-        
-        func isPresented(_ route: Route, onBack: @escaping Bind) -> Binding<Bool> {
-            return Binding(get: { self == route }, set: { [onBack] _ in onBack() })
-        }
-    }
-    
     @State private var route = Route.home
     
     var body: some Scene {
-        WindowGroup {
-            content
-        }
+        WindowGroup { content }
     }
     
     private var content: some View {
@@ -29,16 +18,17 @@ struct ProgramouApp: App {
     }
     
     private var enterLink: some View {
+        let isActive = route.isPresented(.enter, onBack: onBackToHomeActionHandler)
+        let destination = makeEnter
         return NavigationLink(
-            isActive: route.isPresented(.enter, onBack: { route = .home }),
-            destination: makeEnter,
+            isActive: isActive,
+            destination: destination,
             label: EmptyView.init
-        )
+        ).hidden()
     }
     
     private func makeHome() -> some View {
         HomeComposer.compose(onEnter: onEnterActionHandler)
-            .navigationBarBackButtonHidden()
     }
     
     private func makeEnter() -> some View {
@@ -50,7 +40,7 @@ struct ProgramouApp: App {
         route = .enter
     }
     
-    private func onAppearHomeActionHandler() {
+    private func onBackToHomeActionHandler() {
         route = .home
     }
 }

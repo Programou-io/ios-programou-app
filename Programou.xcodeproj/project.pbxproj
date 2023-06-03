@@ -43,6 +43,7 @@
 		B16C00E02A1BC96D00DEB171 /* EnterLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00DE2A1BC95900DEB171 /* EnterLocalizeTests.swift */; };
 		B16C00E32A1BCA9E00DEB171 /* Enter.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16C00E12A1BCA9E00DEB171 /* Enter.strings */; };
 		B16C00E62A1BFA9400DEB171 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00E52A1BFA9400DEB171 /* Binding+Extensions.swift */; };
+		B16C00E92A1BFCCE00DEB171 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C00E82A1BFCCE00DEB171 /* Route.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		B16C00DE2A1BC95900DEB171 /* EnterLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocalizeTests.swift; sourceTree = "<group>"; };
 		B16C00E22A1BCA9E00DEB171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Enter.strings; sourceTree = "<group>"; };
 		B16C00E52A1BFA9400DEB171 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		B16C00E82A1BFCCE00DEB171 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		B16C00422A16F3C500DEB171 /* ios-programou-app */ = {
 			isa = PBXGroup;
 			children = (
+				B16C00E72A1BFCC100DEB171 /* Router */,
 				B16C00432A16F3C500DEB171 /* ProgramouApp.swift */,
 				B16C008F2A18D5EA00DEB171 /* UI */,
 				B16C008E2A18D5E600DEB171 /* Core */,
@@ -408,6 +411,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B16C00E72A1BFCC100DEB171 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B16C00E82A1BFCCE00DEB171 /* Route.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -522,6 +533,7 @@
 				B16C009B2A18DAC100DEB171 /* HomePresenter.swift in Sources */,
 				B16C007F2A17C88000DEB171 /* BoxComponent.swift in Sources */,
 				B16C00442A16F3C500DEB171 /* ProgramouApp.swift in Sources */,
+				B16C00E92A1BFCCE00DEB171 /* Route.swift in Sources */,
 				B16C00D62A1BC67600DEB171 /* EnterComposer.swift in Sources */,
 				B16C00B12A18E30C00DEB171 /* Stacks+Extensions.swift in Sources */,
 				B16C00822A17CD5100DEB171 /* View+Extensions.swift in Sources */,
